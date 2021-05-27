@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <title>Intersection Observer API</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="site-logo" aria-label="homepage">IntObs</a>
+      <nav class="main-nav">
+        <ul class="nav__list">
+          <li class="nav__list-item"><a href="#" class="nav__link">Home</a></li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link">About</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link">Another page</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link">Pricing</a>
+          </li>
+          <li class="nav__list-item"><a href="#" class="nav__link">Blog</a></li>
+        </ul>
+      </nav>
+      <nav class="account">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a class="nav__link nav__link--btn" href="#">Login</a>
+          </li>
+          <li class="nav__list-item">
+            <a
+              class="nav__link nav__link--btn nav__link--btn--highlight"
+              href="#"
+              >Join</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <a href="#" class="top-btn">Back to top</a>
+      <section id="#" class="section section-one home-intro">
+        <h1>Using Intersection Observer</h1>
+      </section>
+      <section class="section pricing">
+        <h1>Using Intersection Observer</h1>
+        <p class="text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, optio.
+          Iusto, nesciunt. Fugiat amet, quia eligendi eveniet tempora quisquam
+          quasi?
+        </p>
+      </section>
+      <section class="section section-three">
+        <h1>Using Intersection Observer</h1>
+        <span class="text"
+          >Pausing and playing a video when on the viewport</span
+        >
+        <video class="video-player" controls>
+          <source src="/assets/video.mp4" type="video/mp4" />
+        </video>
+      </section>
+    </main>
+
+    <script src="/scripts/intersectionObserver.js"></script>
+  </body>
+</html>
